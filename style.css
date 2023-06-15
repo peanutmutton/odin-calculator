@@ -1,0 +1,10 @@
+#container {
+    display: flex;
+    width: 200px;
+}
+
+#container button {
+    min-width: 50px;
+    flex: 1 0 0%;
+    background-color: aqua;
+}
