@@ -5,16 +5,26 @@
     
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="newscript.js" defer></script>
 </head>
 <body>
     <div id="container">
+        <button onclick="numberInput(0)">0</button>
+        <button onclick="numberInput(1)">1</button>
+        <button onclick="numberInput(2)">2</button>
+        <button onclick="numberInput(3)">3</button>
+        <button onclick="numberInput(4)">4</button>
+        <button onclick="numberInput(5)">5</button>
+        <button onclick="numberInput(6)">6</button>
+        <button onclick="numberInput(7)">7</button>
+        <button onclick="numberInput(8)">8</button>
+        <button onclick="numberInput(9)">9</button>
+        <button onclick="changeOperator('+')">+</button>
+        <button onclick="changeOperator('-')">-</button>
+        <button onclick="changeOperator('*')">*</button>
+        <button onclick="changeOperator('/')">/</button>
+        <button onclick="operate(firstmemory, displayValue, operatormemory)">=</button>
         
-        <button class="operators" onclick="add()">+</button>
-        <button class="operators" onclick="subtract()">-</button>
-        <button class="operators" onclick="multiply()">*</button>
-        <button class="operators" onclick="divide()">/</button>
-        <button class="operators" onclick="operate()">=</button>
         
     </div>
 

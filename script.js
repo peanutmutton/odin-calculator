@@ -1,6 +1,6 @@
 const container = document.querySelector("#container");
 const display = document.querySelector('#display');
-
+/* 
 let strmemory = '';
 let first = 0;
 let second = 0;
@@ -33,7 +33,7 @@ function divide(){
     operator = "/";
     display.textContent = strmemory;
 };
-
+*/
 
 
 function operate(){
@@ -41,15 +41,19 @@ function operate(){
     strmemory = '';
     if (operator == "+"){
         display.textContent = first + second;
+        strmemory = first + second;
     }
     else if (operator == "-"){
         display.textContent = first - second;
+        strmemory = first + second;
     }
     else if (operator == "*"){
         display.textContent = first * second;
+        strmemory = first + second;
     }
     else if (operator == "/"){
         display.textContent = first / second;
+        strmemory = first + second;
     };
 
 }
